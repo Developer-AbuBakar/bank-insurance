@@ -8,10 +8,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
       console.log(email, password)
 
 
-      if (email === 'abubakar@gmail.com' && password === 'secret'){
-            console.log('valid user')
+      if (email === 'abubakar@gmail.com' && password === 'fardin'){
+            window.location.href = 'bank.html'
       }
       else{
-            console.log('invalid user')
+            alert('Incorrect Password')
       }
 })
